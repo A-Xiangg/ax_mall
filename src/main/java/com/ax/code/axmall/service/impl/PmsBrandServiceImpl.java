@@ -6,9 +6,10 @@ import com.ax.code.axmall.model.PmsBrandExample;
 import com.ax.code.axmall.service.PmsBrandService;
 import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class PmsBrandServiceImpl implements PmsBrandService
 { @Autowired
 private PmsBrandMapper brandMapper;

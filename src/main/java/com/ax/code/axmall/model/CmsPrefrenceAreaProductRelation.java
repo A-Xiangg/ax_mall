@@ -1,5 +1,6 @@
 package com.ax.code.axmall.model;
 
+import io.swagger.annotations.ApiModelProperty;
 import java.io.Serializable;
 
 public class CmsPrefrenceAreaProductRelation implements Serializable {

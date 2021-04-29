@@ -1,4 +1,4 @@
-package com.ax.code.axmall.tink.config;
+package com.ax.code.axmall.config;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Configuration;
