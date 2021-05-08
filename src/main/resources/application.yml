@@ -7,6 +7,10 @@ spring:
     url: jdbc:mysql://1.15.82.146:3306/mall?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
     username: admin
     password: admin@cmcc
+  elasticsearch:
+    rest:
+      uris: http://1.15.82.146:9200
+      username: elasticsearch
 
 
   redis:
@@ -21,7 +25,6 @@ spring:
         max-idle: 8 # 连接池中的最大空闲连接
         min-idle: 0 # 连接池中的最小空闲连接
     timeout: 3000ms # 连接超时时间（毫秒）
-
   data:
     mongodb:
       host: 1.15.82.146 # mongodb的连接地址
